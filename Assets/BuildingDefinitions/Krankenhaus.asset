@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff2cc8ab35d09f45b17389266bf52e1, type: 3}
+  m_Name: Krankenhaus
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingDefinition
+  buildingId: hospital
+  effectDescription: 
+  displayName: Krankenhaus
+  buildingSprite: {fileID: -8114365206813273114, guid: d1d8e30441d2dec4d862303c321173dc, type: 3}
+  unlockDescription: 
+  requirements:
+  - type: 0
+    amount: 50
+    artifact: 0
+  anyRequirement: 0
+  effects:
+  - {fileID: 11400000, guid: db3c7b4f7bfc81f48b307055bae573da, type: 2}

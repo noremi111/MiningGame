@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff2cc8ab35d09f45b17389266bf52e1, type: 3}
+  m_Name: Kartografenhaus
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingDefinition
+  buildingId: cartographer
+  displayName: Kartografenhaus
+  buildingSprite: {fileID: -860755359552069453, guid: b1856f2634676ba48bfed3c301735602, type: 3}
+  unlockDescription: 
+  requirements:
+  - type: 5
+    amount: 1
+    artifact: 5
+  anyRequirement: 0

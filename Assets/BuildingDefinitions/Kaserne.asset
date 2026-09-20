@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff2cc8ab35d09f45b17389266bf52e1, type: 3}
+  m_Name: Kaserne
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingDefinition
+  buildingId: barracks
+  displayName: Kaserne
+  buildingSprite: {fileID: -8918185350854211197, guid: fb8895774c180e348a6299e1ef2f2ec6, type: 3}
+  unlockDescription: 
+  requirements:
+  - type: 4
+    amount: 1
+    artifact: 0
+  anyRequirement: 0

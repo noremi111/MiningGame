@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff2cc8ab35d09f45b17389266bf52e1, type: 3}
+  m_Name: Abenteurergilde
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingDefinition
+  buildingId: adventurers_guild
+  effectDescription: 
+  displayName: Abenteuergilde
+  buildingSprite: {fileID: 8760988215047176042, guid: 23ed1339b5150bc408f131a07cd0086a, type: 3}
+  unlockDescription: 
+  requirements:
+  - type: 3
+    amount: 100
+    artifact: 0
+  anyRequirement: 1
+  effects: []
